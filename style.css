@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+nav {
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.head_img {
+    width: 70%;
+    height: 400px;
+    display: block;
+    margin: 0px auto 0px auto;
+    border-radius: 10px;
+}
+
+h2 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+h3{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+.lox{
+    width: 100%;
+}
+
+.catalog a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+
+.product {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+}
+
+.product a {
+
+}
+
+.product img {
+    width: 180px;
+    height: 170px;
+}
+/*
+.product::before {
+    content: url("https://1000logos.net/wp-content/uploads/2017/03/Nike-Logo-1971-now.png");
+    width: 3px;
+    height: 3px;
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.product:hover::before {
+    opacity: 1;
+}
+*/
+
+.principles {
+    display: flex;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    justify-content: space-between; 
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.principle {
+    width: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.question-answer {
+    margin: 30px;
+}
+
+.question {
+    color: brown;
+}
+
+/*
+.qua-item::before {
+    width: 10px;
+    height: 20px;
+    display: inline-block;
+}
+*/
+
+.slogan {
+    display: flex;
+    padding: 30px;
+    color: black;
+    margin-left: 250px;
+    justify-content: center;
+}
+
+.slogan_img {
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.slogan_text {
+    float:left;
+    color: black;
+    margin: 20px;
+    width: 300px;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.slogan_text::after{
+    content: url("/uploads/2021/03/slogan_0_1614961282.svg");
+    width: 45px;
+    height: 10px;
+    display: block;
+}
+ 
+iframe {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 70%;
+}
+
+.stars {
+    display: block;
+    margin: 20px auto 0 auto;
+}
